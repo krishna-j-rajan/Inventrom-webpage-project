@@ -1,0 +1,118 @@
+body{
+	margin: 0px;
+}
+.inventrom-header{
+	position: fixed;
+	left: 0px;
+	right: 0px
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	z-index: 100;
+}
+.div-logo{
+	height: 100px;
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+.inventrom-nav{
+	float: right;
+	height: 100%;
+}
+.inventrom-nav a{
+color: #0a0a0a;
+font-size: 15px;
+font-weight: 700;
+font-family: "Helvetica Neue";
+padding-right: 20px;
+padding-top: 12px;
+display: inline-block;
+}
+.site-content{
+	position: absolute;
+	top:92px;
+	width: 100%;
+}
+.image-content{
+	background-image: url("background-layer.png");
+	height: 400px;
+	width: 100%;
+	text-align: center;
+}
+.quote{
+	color: white;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 10%;
+}
+.hyperlink{
+	color: white;
+	font-size: 20px;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 10%;
+}
+section
+{
+    padding: 100px
+}
+#product{
+	text-align: center;
+	color: #139139;
+}
+#description{
+	text-align: center;
+}
+.card-list{
+	width: 100%
+}
+.card{
+	width: 22%;
+    padding-right: 10%;
+    padding-left: 15%;
+	height: 300px;
+	float: left;
+	text-align: justify;
+}
+.card img{
+	width: 100%;
+}
+.aw{
+	width: 22%;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+.aw img{
+	width: 100%;
+}
+#loc{
+    padding-left: 50%;
+}
+#foot{
+    padding-left: 10%;
+}
+#image{
+   width: 30px;
+   height: 30px;
+}
+.footer {
+ position: fixed;
+    font-size: 20px;
+    font-family: "Helvetica Neue";
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #139139;
+    color: white;
+    text-align: center;
+  }
